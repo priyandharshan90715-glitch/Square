@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SiteCraft.top – Premium Website Themes</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background:#0b0f14;
+  color:#ffffff;
+  line-height:1.6;
+}
+
+/* ---------- NAVBAR ---------- */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+}
+
+nav h1{
+  color:#00b4ff;
+  font-weight:700;
+}
+
+nav a{
+  color:#ccc;
+  text-decoration:none;
+  margin-left:20px;
+  font-size:14px;
+}
+
+nav a:hover{
+  color:#00b4ff;
+}
+
+/* ---------- HERO ---------- */
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:80px 8%;
+  gap:40px;
+}
+
+.hero-text h2{
+  font-size:42px;
+  line-height:1.2;
+}
+
+.hero-text span{
+  color:#00b4ff;
+}
+
+.hero-text p{
+  margin:20px 0;
+  color:#aaa;
+}
+
+.hero-text button{
+  padding:12px 22px;
+  margin-right:10px;
+  border:none;
+  border-radius:25px;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.btn-primary{
+  background:#00b4ff;
+  color:#000;
+}
+
+.btn-secondary{
+  background:transparent;
+  color:#00b4ff;
+  border:1px solid #00b4ff;
+}
+
+.hero-visual{
+  width:45%;
+  height:280px;
+  background:linear-gradient(135deg,#00b4ff33,#00ffe033);
+  border-radius:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#00b4ff;
+  font-size:18px;
+}
+
+/* ---------- FEATURES ---------- */
+.features{
+  padding:60px 8%;
+  text-align:center;
+}
+
+.features h3{
+  font-size:28px;
+  margin-bottom:40px;
+}
+
+.feature-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+.feature-card{
+  background:#111821;
+  padding:25px;
+  border-radius:15px;
+  border:1px solid #1f2a36;
+}
+
+.feature-card h4{
+  margin-bottom:10px;
+  color:#00b4ff;
+}
+
+.feature-card p{
+  color:#aaa;
+  font-size:14px;
+}
+
+/* ---------- INFO SECTION ---------- */
+.info{
+  display:flex;
+  align-items:center;
+  gap:40px;
+  padding:70px 8%;
+}
+
+.info-text h3{
+  font-size:26px;
+}
+
+.info-text p{
+  color:#aaa;
+  margin:15px 0;
+}
+
+.info-visual{
+  width:45%;
+  height:220px;
+  background:#111821;
+  border-radius:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#00b4ff;
+}
+
+/* ---------- PRICING ---------- */
+.pricing{
+  padding:70px 8%;
+  text-align:center;
+}
+
+.pricing h3{
+  font-size:28px;
+  margin-bottom:40px;
+}
+
+.price-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+}
+
+.price-card{
+  background:#111821;
+  padding:30px;
+  border-radius:20px;
+  border:1px solid #1f2a36;
+}
+
+.price-card h4{
+  color:#00b4ff;
+}
+
+.price{
+  font-size:30px;
+  margin:15px 0;
+}
+
+.price-card p{
+  font-size:14px;
+  color:#aaa;
+}
+
+/* ---------- FOOTER ---------- */
+footer{
+  padding:25px;
+  text-align:center;
+  background:#090c10;
+  color:#666;
+  font-size:13px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media(max-width:900px){
+  .hero,.info{
+    flex-direction:column;
+    text-align:center;
+  }
+  .hero-visual,.info-visual{
+    width:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <h1>SiteCraft</h1>
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Themes</a>
+    <a href="#">Pricing</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>Craft Powerful <span>Websites</span></h2>
+    <p>Premium website themes designed for speed, beauty, and performance.</p>
+    <button class="btn-primary">Browse Themes</button>
+    <button class="btn-secondary">View Demo</button>
+  </div>
+  <div class="hero-visual">
+    Website UI Preview
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <h3>Why SiteCraft?</h3>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h4>⚡ Fast Performance</h4>
+      <p>Optimized code for speed.</p>
+    </div>
+    <div class="feature-card">
+      <h4>🎨 Modern UI</h4>
+      <p>Clean and premium designs.</p>
+    </div>
+    <div class="feature-card">
+      <h4>🛠 Easy Customize</h4>
+      <p>No coding needed.</p>
+    </div>
+    <div class="feature-card">
+      <h4>📱 Responsive</h4>
+      <p>Perfect on all devices.</p>
+    </div>
+  </div>
+</section>
+
+<!-- INFO -->
+<section class="info">
+  <div class="info-text">
+    <h3>Why SiteCraft Matters</h3>
+    <p>Launch professional websites faster with ready-made themes crafted for creators.</p>
+    <button class="btn-primary">Explore Collection</button>
+  </div>
+  <div class="info-visual">
+    Theme Layout Stack
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing">
+  <h3>Theme Pricing</h3>
+  <div class="price-grid">
+    <div class="price-card">
+      <h4>Starter</h4>
+      <div class="price">₹499</div>
+      <p>Single theme + updates</p>
+    </div>
+    <div class="price-card">
+      <h4>Pro</h4>
+      <div class="price">₹999</div>
+      <p>Multiple pages + support</p>
+    </div>
+    <div class="price-card">
+      <h4>Bundle</h4>
+      <div class="price">₹1999</div>
+      <p>All themes + lifetime updates</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 SiteCraft.top – All rights reserved
+</footer>
+
+</body>
+</html>
